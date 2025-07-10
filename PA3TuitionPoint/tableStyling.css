@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:wght@300&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    /*width: 100%;*/	
+    text-align: center;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;NOT
+font-family: 'Ubuntu', sans-serif; */
+
+th {
+    background-color: #04aa6d;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600;
+}
+
+td {
+    font-size: 1.2rem;
+    font-family: "Ubuntu", sans-serif;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+tbody > tr > :nth-child(2) {
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+tbody > tr > :nth-child(8) {
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+#formControler {
+    text-align: center;
+    font-size: 30px;
+}
+
+#formControler label {
+    padding: 10px;
+    margin: 10px;
+}
+
+#formControler label {
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+#formControler input {
+    padding: 10px;
+    width: 20%;
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+#formControler select {
+    padding: 10px;
+    width: 20%;
+    margin: 1rem;
+}
+
+#formControler input {
+    border-radius: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#formControler select {
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#formControler select.classDiv {
+    margin-left: 5rem;
+    width: 22%;
+}
+
+#formControler select.subjectDiv {
+    margin-left: 2.9rem;
+    width: 22%;
+}
+
+.btn {
+    transition: all 0.3s ease-in;
+    font-size: 1.6rem;
+    padding: 0.6rem 1.6rem;
+    font-family: ubuntu;
+    font-weight: 500;
+    background: #04aa6d;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 0.6rem;
+}
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}

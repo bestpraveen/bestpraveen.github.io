@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#formControler {
+    text-align: center;
+    font-size: 30px;
+}
+
+#formControler label {
+    padding: 10px;
+    margin: 10px;
+}
+
+#formControler label {
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+#formControler input {
+    padding: 10px;
+    width: 20%;
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+#formControler select {
+    padding: 10px;
+    width: 20%;
+    margin: 1rem;
+}
+
+/* #formControler label{
+    display: block;
+    width: 30%;
+    margin-right: 50%;
+} */
+
+#formControler input {
+    border-radius: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#formControler select {
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+/* 
+#formControler .nameDiv,
+#formControler .classDiv,
+#formControler .statusDiv,
+#formControler .addressDiv,
+#formControler .mobileDiv,
+#formControler .startDateDiv{
+} */
+
+#formControler input.nameDiv {
+    margin-left: 4rem;
+}
+
+#formControler select.classDiv {
+    margin-left: 5rem;
+    width: 22%;
+}
+
+#formControler select.subjectDiv {
+    margin-left: 2.9rem;
+    width: 22%;
+}
+
+#formControler input.feesDiv {
+    margin-left: 5.4rem;
+}
+
+#formControler input.statusDiv {
+    margin-left: 3.9rem;
+}
+
+#formControler input.addressDiv {
+    margin-left: 2.2rem;
+}
+
+#formControler input.mobileDiv {
+    margin-left: 3rem;
+}
+
+#formControler input.startDateDiv {
+    margin-left: 0.9rem;
+}

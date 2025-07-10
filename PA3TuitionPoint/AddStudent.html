@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="AddStudent.css" />
+        <title>Add Students</title>
+    </head>
+    <body>
+        <h1>Add Students</h1>
+        <form action="AddStudent.php" method="post" id="formControler">
+            <label for="StName" class="nameDiv">Name: </label>
+            <input
+            type="text"
+            name="StName"
+            id="StName"
+            placeholder="Name"
+            required
+            class="nameDiv"
+            />
+            
+            <label for="Class" class="classDiv">Class: </label>
+            <select name="Class" id="Class" class="classDiv">
+                <optgroup label="KG">
+                    <option value="L.K.G">L.K.G</option>
+                    <option value="U.K.G">U.K.G</option>
+                </optgroup>
+                <optgroup label="Primary">
+                    <option value="1">Class:1</option>
+                    <option value="2">Class:2</option>
+                    <option value="3">Class:3</option>
+                    <option value="4">Class:4</option>
+                    <option value="5">Class:5</option>
+                </optgroup>
+                <optgroup label="Secondary">
+                    <option value="6">Class:6</option>
+                    <option value="7">Class:7</option>
+                    <option value="8">Class:8</option>
+                    <option value="9">Class:9</option>
+                    <option value="10">Class:10</option>
+                    <option value="11">Class:11</option>
+                    <option value="12">Class:12</option>
+                </optgroup>
+            </select>
+            <br>
+            <label for="Subject" class="classDiv">Subject: </label>
+            <select name="Subject" id="Subject" class="subjectDiv">
+                <option value="ALlSubjects">All Subjects</option>
+                <option value="Math">Maths</option>
+                <option value="Science">Science</option>
+            </select>
+            
+            <label for="FeesPerMonth" class="FeesPerMonth" >Fees: </label>
+            <input
+            type="number"
+            name="FeesPerMonth"
+            id="FeesPerMonth"
+            value="ACTIVE"
+            placeholder="FeesPerMonth"
+            required
+            class="feesDiv"
+            />
+            <br/>
+            <label for="Status" class="statusDiv" >Status: </label>
+            <input
+            type="text"
+            name="Status"
+            id="Status"
+            value="ACTIVE"
+            placeholder="Status"
+            readonly
+            class="statusDiv"
+            />
+            
+            <label for="Address" class="addressDiv">Address: </label>
+            <input
+            type="text"
+            name="Address"
+            id="Address"
+            placeholder="Address"
+            required
+            class="addressDiv"
+            />
+            <br />
+            <label for="Mobile" class="mobileDiv">Mobile: </label>
+            <input
+            type="number"
+            name="Mobile"
+            id="Mobile"
+            placeholder="Mobile"
+            required
+            class="mobileDiv"
+            />
+            
+            <label for="StDate" class="startDateDiv">StartDate: </label>
+            <input
+            type="date"
+            name="StDate"
+            id="StDate"
+            placeholder="Start Date"
+            required
+            class="startDateDiv"
+            />
+            <br />
+            <button type="submit">Add Student</button> &nbsp;&nbsp;&nbsp;<a href="logout.php" style="color:red">Logout</a>
+        </form>
+		
+		
+		
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
